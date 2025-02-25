@@ -1,0 +1,32 @@
+{
+  "name": "superhub",
+  "version": "0.0.1",
+  "main": "start-hub.js",
+  "repository": "https://github.com/wieldlabs/superhub",
+  "author": "Beb, Inc. <gm@wield.xyz>",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "start": "node start-hub.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "mongoose": "^8.9.0",
+    "axios": "^1.7.9",
+    "axios-retry": "^4.1.0",
+    "ethers": "^5.6.9",
+    "expo-server-sdk": "^3.10.0",
+    "@sentry/node": "^8.45.0",
+    "@mongodb-js/zstd": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "memcache-client": "^1.0.5",
+    "bs58": "^5.0.0",
+    "moralis": "^2.27.2",
+    "fido2-lib": "^3.4.1",
+    "base64url": "^3.0.1",
+    "@farcaster/hub-nodejs": "^0.12.7",
+    "lodash": "^4.17.21",
+    "@metamask/eth-sig-util": "^4.0.0",
+    "alchemy-sdk": "^3.5.0"
+  }
+}
