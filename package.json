@@ -10,24 +10,25 @@
     "example-replicator": "node example-replicator.js"
   },
   "dependencies": {
-    "express": "^4.21.2",
-    "express-rate-limit": "^7.5.0",
-    "mongoose": "^8.9.0",
+    "@farcaster/hub-nodejs": "^0.12.7",
+    "@metamask/eth-sig-util": "^4.0.0",
+    "@mongodb-js/zstd": "^1.2.0",
+    "@sentry/node": "^8.45.0",
+    "alchemy-sdk": "^3.5.0",
     "axios": "^1.7.9",
     "axios-retry": "^4.1.0",
+    "base64url": "^3.0.1",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.7",
     "ethers": "^5.6.9",
     "expo-server-sdk": "^3.10.0",
-    "@sentry/node": "^8.45.0",
-    "@mongodb-js/zstd": "^1.2.0",
-    "jsonwebtoken": "^9.0.0",
-    "memcache-client": "^1.0.5",
-    "bs58": "^5.0.0",
-    "moralis": "^2.27.2",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
     "fido2-lib": "^3.4.1",
-    "base64url": "^3.0.1",
-    "@farcaster/hub-nodejs": "^0.12.7",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.21",
-    "@metamask/eth-sig-util": "^4.0.0",
-    "alchemy-sdk": "^3.5.0"
+    "memcache-client": "^1.0.5",
+    "mongoose": "^8.9.0",
+    "moralis": "^2.27.2"
   }
 }
