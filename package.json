@@ -6,7 +6,8 @@
   "author": "Beb, Inc. <gm@wield.xyz>",
   "license": "AGPL-3.0",
   "scripts": {
-    "start": "node start-hub.js"
+    "start": "node start-hub.js",
+    "example-replicator": "node example-replicator.js"
   },
   "dependencies": {
     "express": "^4.21.2",
