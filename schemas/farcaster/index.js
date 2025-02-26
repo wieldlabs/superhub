@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-// We will use Online Archive instead of pruning Farcaster data - we don't want to lose any data!
+// We use Online Archive instead of pruning data at scale - we don't want to lose any data!
 // https://www.mongodb.com/docs/atlas/online-archive/manage-online-archive/
 
 // HubSubscriptions
