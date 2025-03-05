@@ -60,7 +60,7 @@ app.post("/create", heavyLimiter, async (req, res) => {
     });
 
     Sentry.captureMessage(
-      `New API key created for ${apiKey.email} with ${apiKey.description}! key=${apiKey.key}`
+      `New API key created for ${apiKey.email} with "${apiKey.description}".`
     );
 
     return res.json({

@@ -278,11 +278,14 @@ const SyncedVerification =
 
 const UserDataType = {
   USER_DATA_TYPE_NONE: 0,
-  USER_DATA_TYPE_PFP: 1,
-  USER_DATA_TYPE_DISPLAY: 2,
-  USER_DATA_TYPE_BIO: 3,
-  USER_DATA_TYPE_URL: 5,
-  USER_DATA_TYPE_USERNAME: 6,
+  USER_DATA_TYPE_PFP: 1, // Profile Picture for the user
+  USER_DATA_TYPE_DISPLAY: 2, // Display Name for the user
+  USER_DATA_TYPE_BIO: 3, // Bio for the user
+  USER_DATA_TYPE_URL: 5, // URL of the user
+  USER_DATA_TYPE_USERNAME: 6, // Preferred Name for the user
+  USER_DATA_TYPE_LOCATION: 7, // Current location for the user
+  USER_DATA_TYPE_TWITTER: 8, // Username of user on x
+  USER_DATA_TYPE_GITHUB: 9, // Username of user on github
 };
 
 const ReactionType = {
