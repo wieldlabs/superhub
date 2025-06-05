@@ -11,6 +11,6 @@ The Wield Superhub is the first open-source Farcaster L1 + L2 data layer built b
 ## Useful Links
 
 - [Developer Documentation](https://docs.wield.xyz)
-- [Developer Telegram](https://t.me/+AAgF-ptLxjEzZGNh)
+- [Developer Telegram](/telegram.org/+AAgF-ptLxjEzZGNh)
 - [far.quest](https://far.quest)
 - [Wield Labs](https://wield.xyz)
